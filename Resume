@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+ <head><title>Shreye Chatterjee Resume</title>
+ <style>
+    .footer{
+    text-align:center;
+    padding:10px;
+    background-color:#ddd;
+    }
+    table{
+    text-align: left;
+    width:100%;
+    border:1px solid black;
+    }
+    th{
+        text-decoration-line: underline;
+    }
+    dt{ 
+    font-weight:bold;
+    font-size:1.2em;
+    }
+    section{
+    padding:10px;
+    border:1px solid black;
+    margin:10px;
+    }
+ </style>
+ </head>
+ <body>
+    <header class="header"><h1>Shreye Chatterjee Resume</h1></header>
+    <nav class="navbar">
+      <ul>
+         <li><a href="#Edu">Education</a></li>
+         <li><a href="#Int">Internships</a></li>
+         <li><a href="#Pro">Projects</a></li>
+         <li><a href="#Ski">Skills</a></li>
+         <li><a href="#Det">Basic Details</a></li>
+         <li><a href="#Con">Contact</a></li>
+      </ul>
+    </nav>
+    <article><p>
+        Welcome to my website, hope you enjoy it.
+    </p>
+    <hr>
+    <p>My name is Shreye Chatterjee.</p>
+    <img
+  src="https://media.licdn.com/dms/image/v2/C4D03AQGQE0SWPxsr6w/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1653826936347?e=1741219200&v=beta&t=qb1gEHNQDrwajRYRG53LkGXwfqONqKXNLGbq-bGflng">
+    </article>
+    <section id="Edu">
+        <h2>Education</h2>
+        <table>
+            <colgroup>
+                <col span="1" style="background-color: #ddd;">
+            </colgroup>
+            <tr><th>Degree/Certificate</th>
+                <th>Discipline</th>
+                <th>Institute</th>
+                <th>Board/University</th>
+                <th>Year of Passing</th>
+                <th>Percentage/CGPA</th>
+            </tr>
+            <tr>
+                <td>Bachelor of Technology</td>
+                <td>Electronics & Communicaion Engineering</td>
+                <td>College of Engineering & Management, Kolaghat</td>
+                <td>MAKAUT</td>
+                <td>2024</td>
+                <td>8.88 CGPA</td>
+            </tr>
+            <tr>
+                <td>12th</td>
+                <td>PCMB</td>
+                <td>Kendriya Vidyalaya IIT Kharagpur</td>
+                <td>CBSE</td>
+                <td>2020</td>
+                <td>84.6 %</td>
+            </tr>
+            <tr>
+                <td>10th</td>
+                <td>Science, English, Social Science, Maths, Hindi</td>
+                <td>Kendriya Vidyalaya IIT Kharagpur</td>
+                <td>CBSE</td>
+                <td>2018</td>
+                <td>90 %</td>
+            </tr>
+        </table>
+    </section>
+    <section id="Int">
+        <h2>Internships</h2>
+        <dl>
+            <dt><u>Jadavpur University | July 2023 - August 2023</u></dt>
+            <dd>- I learnt about different sensors, fpga, arduino, raspberry Pi, etc. and also did a hands on project with Arduino Uno and sensors.</dd>
+            <br>
+            <dt><u>MBA HUB | September 2022 - September 2022</u></dt>
+            <dd>- I have gained knowledge about trading, stocks and marketing strategies. The internship program also had a role of HR person where we needed to shortlist and review the resume submitted and hire the candidates as per their telephonic interview.</dd>
+        </dl>
+    </section>
+    <section id="Pro">
+        <h2>Projects</h2>
+        <dl>
+            <dt><u>Air Quality Index | January 2024 - June 2024</u></dt>
+            <dd>- Air Quality Index using Machine learning</dd>
+            <br>
+            <dt><u>Servo Motor Control Using Arduino Uno | July 2023 - December 2023</u></dt>
+            <dd>- In this project, we have detected hand gestures through a PC camera and generated angular servo-motor outputs through an arduino micro-controller.</dd>
+        </dl>
+    </section>
+    <section id="Ski">
+        <h2>Skills</h2>
+        <ol>
+            <li>CSS</li>
+            <li>HTML</li>
+            <li>JavaScript</li>
+            <li>C Programming</li>
+            <li>Python</li>
+            <li>Communication Skills</li>
+            <li>Presentation Skills</li>
+            <li>Public Speaking</li>
+            <li>Embedded Systems</li>
+            <li>Electronics & Communication</li>
+            <li>Event Management</li>
+            <li>Creativity Skills</li>
+            <li>HR Management</li>
+        </ol>
+    </section>
+    <section id="Det">
+        <h2>Basic Details</h2>
+        <dl>
+            <dt><u>Achievements</u></dt>
+            <dd>
+                <ol>
+                    <li>Recieved Scholarship</li>
+                    <li>Girls Representative for General Council 2022 to 2023 in CEMK</li>
+                    <li>Topper of the Final Year B.Tech</li>
+                </ol>
+            </dd>
+            <br>
+            <dt><u>Hobbies</u></dt>
+            <dd>
+                <ol>
+                    <li>Dance</li>
+                    <li>Reading Books</li>
+                </ol>
+            </dd>
+            <br>
+            <dt><u>Languages Known</u></dt>
+            <dd>
+                <ol>
+                    <li>English</li>
+                    <li>Hindi</li>
+                    <li>Bengali</li>
+                </ol>
+            </dd>
+        </dl>
+    </section>
+    <section id="Con">
+        <h2>Contact Me</h2>
+        <p>
+            Contact me at my email<a href="shreyechatterjee.2k2@gmail.com">Email Id</a>
+        </p>
+        <br>
+        <p>
+            Or reach me at LinkedIn<a href="https://www.linkedin.com/in/shreye-chatterjee-42b408240?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn Adress</a>
+        </p>
+    </section>
+    <footer class="footer">Copyright (c) 2024 Shreye Chatterjee Content please contact me to find out more.</footer>
+ </body>
+</html>
